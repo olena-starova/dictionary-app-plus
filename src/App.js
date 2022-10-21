@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Dictionary from "./Dictionary";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container">
+        <header className="App-header">StarDictionary</header>
+        <main>
+          <Dictionary />
+        </main>
+        <footer className="App-footer">
+          <small>
+            This project was coded by{" "}
+            <a href="https://spiffy-cucurucho-a2d46c.netlify.app/index.html">
+              Olena Starova
+            </a>{" "}
+            and is{" "}
+            <a
+              href="https://github.com/olena-starova/dictionary-app-plus"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              open-sourced on GitHub
+            </a>{" "}
+            and hosted on{" "}
+            <a
+              href="https://astounding-swan-ddf508.netlify.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Netlify
+            </a>
+            .
+          </small>
+        </footer>
+      </div>
     </div>
   );
 }
-
-export default App;
