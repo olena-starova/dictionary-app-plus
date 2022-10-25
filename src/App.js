@@ -12,7 +12,10 @@ export default function App() {
         <footer className="App-footer">
           <small>
             This project was coded by{" "}
-            <a href="https://spiffy-cucurucho-a2d46c.netlify.app/index.html">
+            <a
+              href="https://spiffy-cucurucho-a2d46c.netlify.app/index.html"
+              rel="noopener noreferrer"
+            >
               Olena Starova
             </a>{" "}
             and is{" "}
