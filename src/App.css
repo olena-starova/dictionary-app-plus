@@ -1,21 +1,28 @@
 body {
-  background: lavenderblush;
+  background-image: url("images/library-2.jpg");
+  background-size: 100% 100%;
 }
 
 a {
-  color: palevioletred;
+  color: rgb(231, 176, 105);
 }
 
 .App-header {
   margin: 30px 0;
   text-align: center;
-  font-size: 40px;
-  font-weight: 900;
+  font-size: 50px;
+  font-weight: 700;
   font-family: "Roboto Slab";
-  color: purple;
+  color: ghostwhite;
+  text-shadow: 5px 5px 5px gray;
 }
 
 .App-footer {
   text-align: center;
   margin: 30px 0;
+  text-align: center;
+  color: whitesmoke;
+  font-family: "Roboto Slab";
+  font-weight: 300;
+  font-size: 16px;
 }

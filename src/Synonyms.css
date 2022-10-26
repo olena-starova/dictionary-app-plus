@@ -4,8 +4,9 @@
 }
 
 .Synonyms li {
-  font-size: 13px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
   display: inline-block;
   padding-right: 10px;
-  line-height: 1;
+  line-height: 1.5;
 }
