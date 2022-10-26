@@ -9,7 +9,7 @@
 
 .Dictionary section {
   background: rgb(235, 228, 217);
-  padding: 30px;
+  padding: 20px;
   border-radius: 8px;
   box-shadow: 7px 7px 7px lightgray;
   margin: 20px 400px;
@@ -20,12 +20,14 @@
   padding: 6px 4px;
   border: 2px solid goldenrod;
   font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .Dictionary .hint {
   margin-top: 10px;
   color: rgb(106, 105, 105);
   font-family: "Roboto Slab";
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 400;
 }
